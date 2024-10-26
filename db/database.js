@@ -2,7 +2,7 @@ require("dotenv").config();
 const {HOST,USER,PASSWORD,DATABASE,KEY} = process.env;
 const mysql = require('mysql');
 const db = mysql.createConnection({
-  host:"localhost",
+  host:"3.142.225.164",
   user:"root",
   password:"Omejia374@",
   database:"testing"

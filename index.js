@@ -23,7 +23,7 @@ const {isAuthorized} = require("./middleware/authorized")
 app.use(express.json());
 //Configuración de cors
 app.use((req, res, next) => {
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:5173');
+    res.setHeader('Access-Control-Allow-Origin', 'http://3.142.225.164');
     res.setHeader('Access-Control-Allow-Credentials', 'true');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PATCH, DELETE, PUT');
     res.setHeader("Access-Control-Allow-Headers", "Origin, Content-Type, Authorization");
